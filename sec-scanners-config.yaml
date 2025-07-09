@@ -6,8 +6,7 @@ checkmarx-one:
     - "**/test/**"
     - "**/*_test.go"
 bdba:
-  - europe-docker.pkg.dev/kyma-project/prod/template-operator:1.0.2
-  - europe-docker.pkg.dev/kyma-project/prod/template-operator:latest
+  - europe-docker.pkg.dev/kyma-project/prod/template-operator:1.0.3
 mend:
   language: golang-mod
   exclude:
